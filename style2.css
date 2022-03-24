@@ -37,7 +37,7 @@ html {
 }
 .logo {
   text-decoration: none;
-  color: #0180bb;
+  color: #f2911b;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 28.8px;
@@ -620,12 +620,14 @@ footer .social_media a {
   body {
     font-size: 12px;
   }
-  .main h2,
-  .skills_section span {
-    font-size: 10px;
+  .main h2 {
+    font-size: 18px;
+  }
+  .main h2 span {
+    font-size: 48px;
   }
   .main h3 {
-    font-size: 20px;
+    font-size: 22.4px;
   }
 
   /* about responsive  */
