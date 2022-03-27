@@ -65,9 +65,9 @@ html {
 .menu-btn {
   position: absolute;
   color: rgb(255, 255, 255);
-  font-size: 20px;
+  font-size: 25px;
   right: 30px;
-  top: 20px;
+  top: 13px;
 }
 .navigation .cancel-btn,
 .menu-btn {
@@ -173,7 +173,7 @@ section {
   display: inline-block;
   padding: 0.7395em 1em;
   letter-spacing: 1px;
-  border-radius: 15px;
+  border-radius: 30px;
   margin-bottom: 40px;
   padding-right: 1.4em;
   box-shadow: 0 17px 10px -10px rgba(255, 255, 255, 0.144);
@@ -513,7 +513,7 @@ scroll.scroll-center {
   padding: 12.8px 48px;
   background-color: #f2911b;
   color: #fff;
-  border-radius: 15px;
+  border-radius: 30px;
   cursor: pointer;
 }
 .contact .row form .box,
@@ -642,23 +642,32 @@ footer .social_media a {
     flex-direction: column;
     align-items: center;
   }
+  .Projets-content {
+    padding: 0 0px;
+  }
   .Projets-card {
     width: 100%;
   }
   footer .social_media a {
-    padding: 0 10px 0 0;
+    padding: 20px 14px 0 0;
     font-size: 15px;
+    display: inline-block;
   }
 
   footer {
-    padding-right: 0px;
+    padding-right: 0;
+    flex-direction: column;
+    align-items: center;
   }
+
   .scroll-up {
     position: relative;
     top: 1cm;
-    left: 50%;
+    left: 46.4%;
   }
-
+  .skills_section span {
+    font-size: 18px;
+  }
   .content {
     flex-direction: column;
     align-items: center;
